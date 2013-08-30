@@ -1,0 +1,158 @@
+@import url('resets.css');
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+/* ==========================================================================
+   Globals
+   ========================================================================== */
+
+/**
+ * This houses all the global css classes
+ */
+
+html, body {
+	height:100%;	
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrap {
+	width:100%;
+	position:relative;
+	overflow:none;
+	padding:0%;
+}
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.divider {
+	clear:both;
+	height:15px;
+}
+
+.block {
+	display:block;
+}
+
+.none {
+	display:none;
+}
+
+.relative {
+	position:relative;
+}
+
+.no-right-margin {
+	margin-right:0px;
+}
+
+.no-top-margin {
+	margin-top:0px;
+}
+
+.no-top-pad {
+	padding-top:0px;
+}
+
+.top-20 {
+	margin-top: 20px;
+}
+
+.text-left {
+	text-align:left;
+}
+
+.text-right {
+	text-align:right;
+}
+
+.center {
+	text-align:center;
+}
+
+.fifteen {
+	width: 15%;
+}
+
+.eighty5 {
+	width: 85%;
+}
+
+/* ========================================================================================
+Main 
+==========================================================================================*/
+
+aside.menu {
+	background-color: #2c2c2c;
+	height: 100%;
+}
+aside img {
+	margin-top: 30px;
+}
+aside ul {
+	padding: 0;
+}
+aside ul li {
+	padding: 20px 0 20px 30px;
+}
+aside ul li:hover {
+	padding: 20px 0 20px 30px;
+	background-color: #272727;
+}
+li.home {
+	list-style-image: url(../img/home.png);
+	list-style-position: inside;
+}
+li.tools {
+	list-style-image: url(../img/tools.png);
+ 	list-style-position: inside;
+}
+li.stats {
+	list-style-image: url(../img/statistics.png);
+ 	list-style-position: inside;
+}
+aside ul li a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #919191;
+}
+
+
+section nav{
+	background-color: #22b59d;
+	height: 38px;
+	width: 100%;
+}
+section ul li {
+	float: left;
+	padding: 9px 20px;
+}
+li.manage {
+	list-style-image: url(../img/manage.png);
+	list-style-position: inside;
+}
+li.reports {
+	list-style-image: url(../img/reports.png);
+	list-style-position: inside;
+}
+section ul li a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #fff;
+}
+.user ul li:hover {
+	background-color: #1b8d7a;
+	padding: 9px 20px 7px;
+}
+.user a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #fff;
+}
