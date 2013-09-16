@@ -81,6 +81,12 @@ html, body {
 .eighty5 {
 	width: 85%;
 }
+.fifty {
+	width: 50%;
+}
+.twenty5 {
+	width: 25%;
+}
 
 /* ========================================================================================
 Main 
@@ -128,6 +134,12 @@ section nav{
 	height: 38px;
 	width: 100%;
 }
+section hr {
+	border: 16px solid #e9e9e9;
+	width: 100%;
+	margin: 0;
+}
+
 section ul li {
 	float: left;
 	padding: 9px 20px;
@@ -155,4 +167,67 @@ section ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	color: #fff;
+}
+.main {
+	padding: 25px;
+}
+.main h2 {
+	font-family: 'Raleway';
+	font-size: 30px;
+	color: #5a5a5a;
+	font-weight: 300;
+	display: inline-block;
+	padding-right: 20px;
+}
+.main a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	background: #eb4b36;
+	color: #fff;
+}
+.top {
+	border-bottom: 1px solid #e9e9e9;
+	padding-bottom: 25px;
+}
+
+table {
+	width: 100%;
+}
+table tr:nth-child(even){
+  background: #f6f6f6;
+}
+table th {
+	font-size: 18px;
+	color: #5a5a5a;
+	padding: 10px 0;
+}
+table td {
+	padding: 10px 0 10px 15px;
+	font-size: 15px;
+	color: #5a5a5a;
+}
+table td:nth-child(2) {
+	width: 55px;
+}
+table td:nth-child(3) {
+	width: 55px;
+}
+.request {
+	border-bottom: 1px solid #e9e9e9;
+	padding: 25px 0;
+	margin-bottom: 25px;
+}
+.request p {
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: #5a5a5a;
+	font-weight: 300;
+	margin: 5px 0;
+}
+.request select {
+	font-size: 18px;
+}
+.add {
+	background-color: #22b59d !important;
 }
