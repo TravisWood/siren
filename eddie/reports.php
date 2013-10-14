@@ -45,11 +45,12 @@ $signed = count($docs2);
 </div> <!-- end modal -->
 <? endif; ?>
 
+<? include('includes/sidebar.php'); ?>
 <? include('includes/header.php'); ?>
 
 <section id="main" class="clearfix padding1">
 
-<? include('includes/sidebar.php'); ?>
+
 
 <div class="right eighty5 allstuff">
 

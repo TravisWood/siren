@@ -42,41 +42,13 @@ $signed = count($docs2);
 </div> <!-- end modal -->
 <? endif; ?>
 
+<? include('includes/sidebar.php'); ?>
+
 <? include('includes/header.php'); ?>
 
 <section id="main" class="clearfix wrap">
 
-<aside class="left twenty5">
 
-	<article>
-        <h4 class="normal no-top-margin capitalize">Welcome <?= $_SESSION['name']; ?></h4>
-        
-        <h3><i class="icon icon-list"></i> Tools</h3>
-        
-        <ul class="dropdown">
-            <li><i class="icon icon-folder-open left block right-3"></i> <a href="#" class="create" data-type="document">Create a Document</a></li>
-            <li><i class="icon icon-text-height left block right-3"></i> <a href="#" class="show" data-type="template">Signature Templates</a></li>
-            <li><i class="icon icon-plus left block right-3"></i> <a href="#" data-toggle="dropdown" class="dropdown-toggle">Add New</a>
-            	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                	<li><a href="#" class="add" data-type="client" data-template="add">Client</a></li>
-                    <li><a href="#" class="add" data-type="user" data-template="add">User</a></li>
-                    <li><a href="#" class="add" data-type="template" data-template="add">Template</a></li>
-                </ul>
-            </li>
-            <li><i class="icon icon-off left block right-3"></i> <a href="logic/logout.php">Logout</a></li>
-		</ul>
-    </article> 
-    
-    <article>
-    	<h3><i class="icon icon-signal"></i> Stats</h3>
-        
-        <ul class="stats">
-        	<li class="clearfix"><span class="bold blue text-40"><?= $sentout; ?></span> <span class="text-right">documents sent out</span></li>
-            <li class="clearfix"><span class="bold blue text-40"><?= $signed; ?></span> <span class="text-right">documents signed</span></li>
-        </ul>
-    </article>
-
-</aside>
 
 <div class="right seventy allstuff">
 

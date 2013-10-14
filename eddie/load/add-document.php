@@ -5,7 +5,7 @@
 
 	<h3 class="clearfix">New Request</h3>
     
-    <form id="addDocument" class="relative no-bottom-margin">
+    <form id="addDocument" class="relative no-bottom-margin request">
     
     	<p class="left forty8"><label>Choose Client</label>
         <select name="client" id="client" class="default">
@@ -52,7 +52,7 @@
         
         <label id="upload-doc">Upload the Document</label>
         <div id="upload_section">
-        <input style="display:none;" id="fileupload" type="file" name="files"><a id="upload" name="upload" class="btn" onclick="$('input[id=fileupload]').click();">Add Document</a><span id="upload_message"></span>
+        <input style="display:none;" id="fileupload" type="file" name="files"><a id="upload" name="upload" class="btn add" onclick="$('input[id=fileupload]').click();">Add Document</a><span id="upload_message"></span>
         </div> <!-- end upload section -->
         <div id="progressbar"></div> <!-- end progressbar -->
         <div id="doc_results"></div> <!-- end document results -->

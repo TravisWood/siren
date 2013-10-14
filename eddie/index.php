@@ -48,12 +48,13 @@ $signed = count($docs2);
 <? include('includes/sidebar.php'); ?>
 
 <section id="main" class="clearfix">
+	
 <? include('includes/header.php'); ?>
 
 
 <div class="right eighty5 allstuff">
 
-	<article class="request">
+	<article>
     	<h3 class="normal">Request Signatures</h3>
         <button class="btn btn-large btn-primary create" data-type="document">Create a Document</button> <img src="img/ajax-loader.gif" class="load none" />
     </article>
