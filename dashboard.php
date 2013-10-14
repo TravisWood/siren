@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/script.js"></script>
 	<meta charset="UTF-8">
 	<title>Siren Dashboard</title>
 </head>
