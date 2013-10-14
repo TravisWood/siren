@@ -13,7 +13,13 @@
 		<nav>
 			<ul>
 				<li class="home"><a href="">Home</a></li>
-				<li class="tools"><a href="">Tools</a></li>
+				<li class="tools"><a href="">Tools</a>
+					<ul>
+						<li><a href="">Create a Document</a></li>
+						<li><a href="">Signature Templates</a></li>
+						<li><a href="">Add New</a></li>
+					</ul>
+				</li>
 				<li class="stats"><a href="">Statistics</a></li>
 			</ul>
 		</nav>
