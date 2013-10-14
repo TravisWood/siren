@@ -109,6 +109,9 @@ aside ul li:hover {
 	padding: 20px 0 20px 30px;
 	background-color: #272727;
 }
+aside ul li a:hover {
+	color: #22b59d;
+}
 li.home {
 	list-style-image: url(../img/home.png);
 	list-style-position: inside;
@@ -116,7 +119,45 @@ li.home {
 li.tools {
 	list-style-image: url(../img/tools.png);
  	list-style-position: inside;
+ 	overflow: hidden;
+ 	-webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
 }
+li.tools li {
+	position: relative;
+}
+li.tools li:nth-child(1):before {
+	content: "";
+	background:url(../img/folder.png) no-repeat center center;
+	position: absolute;
+	width: 15px;
+	height: 12px;
+	top: 25px;
+}
+li.tools li:nth-child(2):before {
+	content: "";
+	background:url(../img/text.png) no-repeat center center;
+	position: absolute;
+	width: 14px;
+	height: 15px;
+	top: 25px;
+}
+li.tools li:nth-child(3):before {
+	content: "";
+	background:url(../img/add.png) no-repeat center center;
+	position: absolute;
+	width: 11px;
+	height: 12px;
+	top: 25px;
+}
+li.tools ul li a {
+	padding-left: 25px;
+}
+
+
 li.stats {
 	list-style-image: url(../img/statistics.png);
  	list-style-position: inside;
@@ -127,19 +168,17 @@ aside ul li a {
 	font-size: 18px;
 	color: #919191;
 }
-
-
 section nav{
 	background-color: #22b59d;
 	height: 38px;
 	width: 100%;
+	padding: 0 2%;
 }
 section hr {
 	border: 16px solid #e9e9e9;
 	width: 100%;
 	margin: 0;
 }
-
 section ul li {
 	float: left;
 	padding: 9px 20px;
