@@ -46,11 +46,11 @@ $signed = count($docs2);
 
 <? include('includes/header.php'); ?>
 
-<section id="main" class="clearfix wrap">
+<section id="main" class="clearfix left">
 
 
 
-<div class="right seventy allstuff">
+<div class="allstuff">
 
 	<article class="request">
     	<h1>Users</h1>
