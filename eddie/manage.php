@@ -44,13 +44,11 @@ $signed = count($docs2);
 
 <? include('includes/sidebar.php'); ?>
 
+<section id="main" class="clearfix">
+    
 <? include('includes/header.php'); ?>
 
-<section id="main" class="clearfix left">
-
-
-
-<div class="allstuff">
+<div class="allstuff right">
 
 	<article class="request">
     	<h1>Users</h1>
